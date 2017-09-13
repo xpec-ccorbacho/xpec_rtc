@@ -1,6 +1,6 @@
 /**
  * WARNING: Do not change this file. Your changes will be lost.
- * 2017-09-12 13:47:20 */
+ * 2017-09-13 19:24:37 */
 body.boxed {
 }
 @media (min-width: 768px) {
@@ -666,7 +666,9 @@ body.boxed {
 .footer-container .validation-advice {
     position: absolute;
 }
-.footer-top .block.newsletter {width: 56%;float: right;}
+.footer-top .block.newsletter {
+  width: 100%;
+/*float: right;*/}
 .footer-top .block.newsletter .form.subscribe {
     max-width: 400px;
 }
@@ -679,10 +681,10 @@ body.boxed {
     position: relative;
 }
 .footer-top .block.newsletter .control input {
-    background-color: #fff;
-    color: #6b7074;
+    background-color: #8594A0;
+    color: #FFF;
     height: 42px;
-    border: none;
+    border-color: #FFF;
     font-size: 13px;
     padding-left: 10px;
 }
@@ -694,8 +696,8 @@ body.boxed {
     height: 42px;
     text-transform: uppercase;
     padding: 0 22px;
-    background-color: #3b3131;
-    border-color:  #3b3131;
+    background-color: #8594A0;
+    border-color:  #FFF;
     color: #fff;
     font-size: 12px;
 }
@@ -769,7 +771,7 @@ body.boxed {
 .footer-bottom .container:before {
     content: '';
     position: absolute;
-    background-color: #3d3232;
+    /*background-color: #3d3232;*/
     left: 15px;
     right: 15px;
     top: -30px;

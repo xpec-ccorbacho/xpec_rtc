@@ -177,13 +177,9 @@
                 </div>
                 <div class="custom-menu-block">
                 <?php
-                    $block = $this->getLayout()->createBlock('Magento\Cms\Block\Block');
-                    if($block) {
-                        $block->setBlockId($custom_block_id_8);
-                    }
-                    if($block){
-                        echo $block->toHtml();
-                    }
+
+                echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('custom_block_menu_links_rtc')->toHtml();
+
                 ?>
                 </div>
             </div>

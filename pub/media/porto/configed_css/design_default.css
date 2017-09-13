@@ -1,6 +1,6 @@
 /**
  * WARNING: Do not change this file. Your changes will be lost.
- * 2017-09-12 21:05:43 */
+ * 2017-09-13 20:09:07 */
 
 .theme-color{color:#000000 !important;}
 .theme-hover-color:hover{color:#000000 !important;}
@@ -78,7 +78,7 @@ button.action.primary:hover{
 #ln_slider_price .ui-slider-handle{background-color:#FFFFFF}
 @media (min-width: 768px){
     .page-header.type1, .page-header.type2, .page-header.type3, .page-header.type4,.page-header.type20, .page-header.type21, .page-header.type5, .page-header.type6,.page-header.type19, .page-header.type7,.page-header.type23, .page-header.type8 .header.content,.page-header.type25 .header.content, .page-header.type9, .page-header.type10, .page-header.type11, .page-header.type12, .page-header.type15, .page-header.type16, .page-header.type17,.page-header.type18,.page-header.header-newskin {
-        background-color: #2F2727;
+        <!--background-color: #000101;-->
     }
 }
     .page-header {
